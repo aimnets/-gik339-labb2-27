@@ -29,7 +29,6 @@ addEventListener("change", checkboxChange);
 
 function buttonPress(e) {
   if (e.target.id === button.id) {
-    console.log("button pressed");
     div.remove();
   }
 }
